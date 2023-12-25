@@ -12,5 +12,7 @@ Features:
 8) Increase and decrease the volume of the song by dragging the sound volume range
 
 Below is the final result of this project:
-https://github.com/AiswaryaaRajesh/Spotify-Clone/assets/72779223/249e8751-c1dc-4c46-940b-6a5d961b8f3d
+
+
+https://github.com/AiswaryaaRajesh/Spotify-Clone/assets/72779223/2eb6ce7d-1cb7-4035-823e-555e4bf2cc60
 
