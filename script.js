@@ -117,14 +117,14 @@ let flag9 = true;
 //song List
 
 let songs = [
-    {songName: "All Too Well", singer:"Taylor Swift", filePath:"./Songs/1.mp3", coverPath:"./Covers/All too well.jpg"},
+    {songName: "All Too Well", singer:"Taylor Swift", filePath:"./Songs/1.mp3", coverPath:"./Covers/All-too-well.jpg"},
     {songName: "Bye", singer:"Aditya Bhardwaj", filePath:"./Songs/2.mp3", coverPath:"./Covers/bye.jpg"},
     {songName: "Dooriyan", singer:"Zaeden", filePath:"./Songs/3.mp3", coverPath:"./Covers/dooriyan-Zaeden-500-500.jpg"},
-    {songName: "Have We Met Before", singer:"Sarah Barrios, Eric Nam", filePath:"./Songs/4.mp3", coverPath:"./Covers/Have we met before.jpg"},
-    {songName: "Double Take", singer:"dhruv", filePath:"./Songs/5.mp3", coverPath:"./Covers/double take.jpg"},
-    {songName: "Love Song", singer:"Why Don't We", filePath:"./Songs/6.mp3", coverPath:"./Covers/Love Song.jpg"},
-    {songName: "Socha Na Tha", singer:"Zaeden", filePath:"./Songs/7.mp3", coverPath:"./Covers/socha na tha.jpg"},
-    {songName: "Dil Dhadakne Do", singer:"Piyanka Chopra, Farhan Akhtar", filePath:"./Songs/8.mp3", coverPath:"./Covers/dil dhadakne do.jpg"},
+    {songName: "Have We Met Before", singer:"Sarah Barrios, Eric Nam", filePath:"./Songs/4.mp3", coverPath:"./Covers/Have-we-met-before.jpg"},
+    {songName: "Double Take", singer:"dhruv", filePath:"./Songs/5.mp3", coverPath:"./Covers/double-take.jpg"},
+    {songName: "Love Song", singer:"Why Don't We", filePath:"./Songs/6.mp3", coverPath:"./Covers/Love-Song.jpg"},
+    {songName: "Socha Na Tha", singer:"Zaeden", filePath:"./Songs/7.mp3", coverPath:"./Covers/socha-na-tha.jpg"},
+    {songName: "Dil Dhadakne Do", singer:"Piyanka Chopra, Farhan Akhtar", filePath:"./Songs/8.mp3", coverPath:"./Covers/dil-dhadakne-do.jpg"},
     {songName: "Senorita", singer:"Farhan Akhtar, Hrithik Roshan", filePath:"./Songs/9.mp3", coverPath:"./Covers/Senorita.jpg"},
 ]
 //audioElement.play()
