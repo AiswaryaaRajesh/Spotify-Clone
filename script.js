@@ -35,7 +35,7 @@ let flag2 = true;
 let flag3 = true;
 (document.getElementById("s3")).addEventListener("click", function () {
         if (flag3) {
-            (document.getElementById("s3")).src = "/HeartGreen.png";
+            (document.getElementById("s3")).src = "./HeartGreen.png";
             flag3 = false;
         } else {
             (document.getElementById("s3")).src = "./HeartGrey.png";
