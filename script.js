@@ -117,7 +117,7 @@ let flag9 = true;
 //song List
 
 let songs = [
-    {songName: "All Too Well", singer:"Taylor Swift", filePath:"./Songs/1.mp3", coverPath:"./Covers/All-too-well.jpg"},
+    {songName: "All Too Well (Taylor's Version)", singer:"Taylor Swift", filePath:"./Songs/1.mp3", coverPath:"./Covers/All-too-well.jpg"},
     {songName: "Bye", singer:"Aditya Bhardwaj", filePath:"./Songs/2.mp3", coverPath:"./Covers/bye.jpg"},
     {songName: "Dooriyan", singer:"Zaeden", filePath:"./Songs/3.mp3", coverPath:"./Covers/dooriyan-Zaeden-500-500.jpg"},
     {songName: "Have We Met Before", singer:"Sarah Barrios, Eric Nam", filePath:"./Songs/4.mp3", coverPath:"./Covers/Have-we-met-before.jpg"},
