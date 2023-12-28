@@ -3,20 +3,11 @@
 
 @media only screen and (max-width: 768px) {
     
-    
-
     .box{
         height: 35px;
         width: 35px;
         background-size: contain;
         border-radius: 7%;
-    }
-
-    
-
-    .mainContent{
-        margin-top: 4rem;
-        font-family: 'Rubik', sans-serif;
     }
 
     .mainContent .box{
@@ -259,8 +250,16 @@ SMALL SCREEN
     scale: 90%;
 }
 
+
+.mainContentsm{
+    margin-top: 4rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+
 .extraMainContent{
-    height: 62rem;
+    margin-top: -1rem;
+    height: 7rem;
     background-color: #000000;
 }
 
