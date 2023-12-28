@@ -134,12 +134,8 @@ nav ul{
     color: white;
 }
 
-.progressBarLg{
-    width: 30rem;
-}
-
-.progressBarSm{
-    width: 70vw;
+#myProgressBar{
+    width: 45vw;
 }
 
 #soundRange{
