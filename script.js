@@ -243,3 +243,13 @@ volumeRange.addEventListener('input', function() {
     audioElement.volume = volume;
 });
 
+//Sidepanel
+function openNav() {
+    document.getElementById("mySidepanel").style.width = "65%";
+}
+
+function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
+}
+
+
