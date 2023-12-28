@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 
 @media only screen and (max-width: 768px) {
-    
     .box{
         height: 35px;
         width: 35px;
@@ -255,7 +254,6 @@ SMALL SCREEN
     margin-top: 4rem;
     font-family: 'Rubik', sans-serif;
 }
-
 
 .extraMainContent{
     margin-top: -1rem;
