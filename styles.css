@@ -5,16 +5,16 @@
 @media screen and (max-width: 992px){
     
     .sidepanel-menu-caret{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .sidebartext{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     
     .sideTextsm{
         color: #d4d4d4;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .mainContent{
@@ -41,12 +41,12 @@
     }
 
     #myProgressBar{
-        width: 65vw;
+        width: 75vw;
     }
 
     .playlistTextFooter{
         color: #ffffff;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .box{
@@ -65,15 +65,15 @@
 
     
     .playlistText p:nth-child(1){
-        font-size: 1.8rem;
-    }
-
-    .playlistText p:nth-child(2){
         font-size: 1.5rem;
     }
 
+    .playlistText p:nth-child(2){
+        font-size: 1.2rem;
+    }
+
     .icons{
-        scale: 2.5;
+        scale: 2;
     }
 
 }
