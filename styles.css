@@ -65,15 +65,16 @@
 
     
     .playlistText p:nth-child(1){
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .playlistText p:nth-child(2){
-        font-size: 1.2rem;
+        font-size: 0.8rem;
+        margin: 0;
     }
 
     .icons{
-        scale: 2;
+        scale: 1.5;
     }
 
 }
