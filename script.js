@@ -9,113 +9,7 @@ let masterSongName = document.getElementById("masterSongName")
 let masterSongSinger = document.getElementById("masterSongSinger")
 let masterSongCover = document.getElementById("masterSongCover")
 
-//End Like or Unlike Song
-let flag1 = true;
-(document.getElementById("s1")).addEventListener("click", function () {
-        if (flag1) {
-            (document.getElementById("s1")).src = "./HeartGreen.png";
-            flag1 = false;
-        } else {
-            (document.getElementById("s1")).src = "./HeartGrey.png";
-            flag1 = true;
-        }
-});
-
-let flag2 = true;
-(document.getElementById("s2")).addEventListener("click", function () {
-        if (flag2) {
-            (document.getElementById("s2")).src = "./HeartGreen.png";
-            flag2 = false;
-        } else {
-            (document.getElementById("s2")).src = "./HeartGrey.png";
-            flag2 = true;
-        }
-});
-
-let flag3 = true;
-(document.getElementById("s3")).addEventListener("click", function () {
-        if (flag3) {
-            (document.getElementById("s3")).src = "./HeartGreen.png";
-            flag3 = false;
-        } else {
-            (document.getElementById("s3")).src = "./HeartGrey.png";
-            flag3 = true;
-        }
-});
-
-let flag4 = true;
-(document.getElementById("s4")).addEventListener("click", function () {
-        if (flag4) {
-            (document.getElementById("s4")).src = "./HeartGreen.png";
-            flag4 = false;
-        } else {
-            (document.getElementById("s4")).src = "./HeartGrey.png";
-            flag4 = true;
-        }
-});
-
-let flag5 = true;
-(document.getElementById("s5")).addEventListener("click", function () {
-        if (flag5) {
-            (document.getElementById("s5")).src = "./HeartGreen.png";
-            flag5 = false;
-        } else {
-            (document.getElementById("s5")).src = "./HeartGrey.png";
-            flag5 = true;
-        }
-});
-
-let flag6 = true;
-(document.getElementById("s6")).addEventListener("click", function () {
-        if (flag6) {
-            (document.getElementById("s6")).src = "./HeartGreen.png";
-            flag6 = false;
-        } else {
-            (document.getElementById("s6")).src = "./HeartGrey.png";
-            flag6 = true;
-        }
-});
-
-let flag7 = true;
-(document.getElementById("s7")).addEventListener("click", function () {
-        if (flag7) {
-            (document.getElementById("s7")).src = "./HeartGreen.png";
-            flag7 = false;
-        } else {
-            (document.getElementById("s7")).src = "./HeartGrey.png";
-            flag7 = true;
-        }
-});
-
-let flag8 = true;
-(document.getElementById("s8")).addEventListener("click", function () {
-        if (flag8) {
-            (document.getElementById("s8")).src = "./HeartGreen.png";
-            flag8 = false;
-        } else {
-            (document.getElementById("s8")).src = "./HeartGrey.png";
-            flag8 = true;
-        }
-});
-
-let flag9 = true;
-(document.getElementById("s9")).addEventListener("click", function () {
-        if (flag9) {
-            (document.getElementById("s9")).src = "./HeartGreen.png";
-            flag9 = false;
-        } else {
-            (document.getElementById("s9")).src = "./HeartGrey.png";
-            flag9 = true;
-        }
-});
-
-//End Like or Unlike Song
-
-
-
-
 //song List
-
 let songs = [
     {songName: "All Too Well (Taylor's Version)", singer:"Taylor Swift", filePath:"./Songs/1.mp3", coverPath:"./Covers/All-too-well.jpg"},
     {songName: "Bye", singer:"Aditya Bhardwaj", filePath:"./Songs/2.mp3", coverPath:"./Covers/bye.jpg"},
@@ -127,7 +21,20 @@ let songs = [
     {songName: "Dil Dhadakne Do", singer:"Piyanka Chopra, Farhan Akhtar", filePath:"./Songs/8.mp3", coverPath:"./Covers/dil-dhadakne-do.jpg"},
     {songName: "Senorita", singer:"Farhan Akhtar, Hrithik Roshan", filePath:"./Songs/9.mp3", coverPath:"./Covers/Senorita.jpg"},
 ]
-//audioElement.play()
+
+//End Like or Unlike Song
+let flag = true;
+Array.from(document.getElementsByClassName("love")).forEach( function(element) {
+    element.addEventListener("click", function(e){
+        if (flag) {
+            element.src = "./HeartGreen.png";
+            flag = false;
+        } else {
+            element.src = "./HeartGrey.png";
+            flag = true;
+        }
+    })
+})
 
 //Handle play/pause click
 masterPlay.addEventListener("click", function() {
@@ -245,7 +152,7 @@ volumeRange.addEventListener('input', function() {
 
 //Sidepanel
 function openNav() {
-    document.getElementById("mySidepanel").style.width = "65%";
+    document.getElementById("mySidepanel").style.width = "85%";
 }
 
 function closeNav() {
