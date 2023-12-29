@@ -15,8 +15,5 @@ Features:
     
 Below is the final result of this project:
 
-
-
-
-https://github.com/AiswaryaaRajesh/Spotify-Clone/assets/72779223/a98d5d56-a6e7-454e-953e-3b27ef7dbc4e
+https://github.com/AiswaryaaRajesh/Spotify-Clone/assets/72779223/aca68602-2ae4-4d4e-8534-3ea0e94a1058
 
